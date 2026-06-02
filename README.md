@@ -2,6 +2,8 @@
 
 A modern, real-time expense sharing web application built with React and FastAPI. Split bills, track group expenses, settle debts, and chat with your group — all in one place.
 
+### 🔗 [Live Demo](https://splitnice-frontend.onrender.com/)
+
 ## ✨ Features
 
 ### Core
