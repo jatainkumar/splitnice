@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #d4af37; /* Premium Gold */
+  --color-primary-light: #e6c25a;
+  --color-background-dark: #000000;
+  --color-surface-dark: #121212;
+  --color-danger: #ef4444;
+  --color-success: #10b981;
+}
+
+:root.light {
+  /* Swap custom background variables */
+  --color-background-dark: #f3f4f6;
+  --color-surface-dark: #ffffff;
+  
+  /* Swap standard Tailwind colors used in the app */
+  --color-black: #f3f4f6;
+  --color-white: #111827;
+  
+  --color-gray-900: #ffffff;
+  --color-gray-800: #e5e7eb;
+  --color-gray-700: #d1d5db;
+  --color-gray-500: #6b7280;
+  --color-gray-400: #4b5563;
+  --color-gray-300: #374151;
+  --color-gray-200: #1f2937;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Cursive font for logo */
+.font-cursive {
+  font-family: 'Pacifico', cursive;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background-dark);
+    color: var(--color-white);
+  }
+}
